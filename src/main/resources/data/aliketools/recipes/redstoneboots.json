@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "r r",
+    "r r"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "aliketools:redstoneboots"
+  },
+  "group": "redstonearmor"
+}

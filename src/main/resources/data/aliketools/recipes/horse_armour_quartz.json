@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #q",
+    "qqb",
+    "lll"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "minecraft:quartz_block"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "aliketools:quartz_horse_armour"
+  }
+}

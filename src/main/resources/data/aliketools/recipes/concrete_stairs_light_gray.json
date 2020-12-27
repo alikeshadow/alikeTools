@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c  ",
+    "cc ",
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:light_gray_concrete"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:light_gray_concrete_stairs",
+    "count": 4
+  }
+}

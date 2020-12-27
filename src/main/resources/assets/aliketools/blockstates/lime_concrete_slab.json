@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "aliketools:block/concrete/lime_concrete_slab" },
+    "type=top": { "model": "aliketools:block/concrete/lime_concrete_slab_top" },
+    "type=double": { "model": "block/lime_concrete" }
+  }
+}
