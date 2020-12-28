@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "aliketools:block/slimeslab" },
+    "type=top": { "model": "aliketools:block/slimeslab_top" },
+    "type=double": { "model": "block/slime_block" }
+  }
+}

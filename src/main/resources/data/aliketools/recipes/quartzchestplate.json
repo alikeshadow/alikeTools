@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "q q",
+    "qqq",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "aliketools:quartzchestplate"
+  },
+  "group": "quartzarmor"
+}

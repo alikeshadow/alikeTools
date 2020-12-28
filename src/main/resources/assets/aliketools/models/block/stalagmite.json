@@ -1,0 +1,7 @@
+{
+  "parent": "aliketools:block/stalagmite_template",
+  "textures": {
+    "particle": "block/stone",
+    "stalagmite": "block/stone"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#M#"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "aliketools:milk_chocolate"
+  }
+}

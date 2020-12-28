@@ -1,0 +1,37 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "particle": "block/glass",
+        "glass_half_rot": "aliketools:block/glass_half_rot",
+        "glass": "block/glass",
+        "glass_half": "aliketools:block/glass_half",
+        "glass_3types": "aliketools:block/glass_3types",
+        "glass_half_i1": "aliketools:block/glass_half_i1",
+        "glass_half_i2": "aliketools:block/glass_half_i2"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "north": { "texture": "#glass_half_i1", "uv": [ 0, 8, 16, 16 ], "cullface": "north" },
+                "east": { "texture": "#glass", "uv": [ 0, 8, 16, 16 ], "cullface": "east" },
+                "south": { "texture": "#glass_half_i2", "uv": [ 0, 8, 16, 16 ], "cullface": "south" },
+                "west": { "texture": "#glass_half", "uv": [ 0, 8, 16, 16 ], "cullface": "west" },
+                "up": { "texture": "#glass_half_rot", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#glass", "uv": [ 0, 0, 16, 16 ], "cullface": "down" }
+            }
+        },
+        {
+            "from": [ 8, 8, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "texture": "#glass_3types", "uv": [ 8, 8, 16, 16 ], "cullface": "north" },
+                "east": { "texture": "#glass", "uv": [ 0, 0, 16, 8 ], "cullface": "east" },
+                "south": { "texture": "#glass_3types", "uv": [ 8, 8, 16, 16 ], "cullface": "south" },
+                "west": { "texture": "#glass_half", "uv": [ 0, 0, 16, 8 ] },
+                "up": { "texture": "#glass_3types", "uv": [ 0, 0, 8, 16 ], "cullface": "up" }
+            }
+        }
+    ]
+}

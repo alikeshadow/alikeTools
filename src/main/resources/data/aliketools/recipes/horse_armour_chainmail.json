@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #c",
+    "ccc",
+    "lll"
+  ],
+  "key": {
+    "c": {
+      "item": "aliketools:chainmailsheet"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "aliketools:chainmail_horse_armour"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "block/slime_block",
+    "bottom": "block/slime_block",
+    "top": "block/slime_block",
+    "side": "aliketools:block/slimeslab_side"
+  }
+}

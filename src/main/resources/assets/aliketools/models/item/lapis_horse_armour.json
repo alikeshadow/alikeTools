@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "aliketools:item/lapis_horse_armour"
+    }
+}
