@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "pool1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aliketools:green_concrete_stairs"
+        }
+      ],
+      "conditions": [{"condition": "minecraft:survives_explosion"}]
+    }
+  ]
+}

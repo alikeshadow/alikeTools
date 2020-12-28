@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s  ",
+    "ss ",
+    "sss"
+  ],
+  "key": {
+    "s": [
+      {
+        "item": "minecraft:slime_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:slimestairs",
+    "count": 4
+  }
+}

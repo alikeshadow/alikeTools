@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "aliketools:block/redstoneslab" },
+    "type=top": { "model": "aliketools:block/redstoneslab_top" },
+    "type=double": { "model": "block/redstone_block" }
+  }
+}

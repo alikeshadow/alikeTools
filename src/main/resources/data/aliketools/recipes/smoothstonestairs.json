@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s  ",
+    "ss ",
+    "sss"
+  ],
+  "key": {
+    "s": [
+      {
+        "item": "minecraft:smooth_stone"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:smoothstonestairs",
+    "count": 4
+  }
+}

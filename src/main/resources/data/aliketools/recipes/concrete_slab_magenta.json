@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:magenta_concrete"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:magenta_concrete_slab",
+    "count": 6
+  }
+}

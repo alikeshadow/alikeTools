@@ -1,0 +1,31 @@
+
+#MultiOre
+[multiore]
+	#Veins per chunk:
+	#Range: > 1
+	multiore_per_chunk = 5
+	#Generate multiore:
+	generate_multiore = true
+
+#Drop settings
+[drops]
+	#Zombie-Pigmen drop porkchops:
+	zpigmen_drop_porkchops = true
+	#Horses drop meat:
+	horse_drop = true
+	#Squids drop calamari:
+	calamari_drop = true
+
+#Speleothem
+[speleothem]
+	#Generate stalagmites:
+	generate_stalags = true
+	#Stalactites per chunk:
+	#Range: > 1
+	stalac_per_chunk = 99
+	#Generate stalactites:
+	generate_stalacs = true
+	#Stalagmites per chunk:
+	#Range: > 1
+	stalag_per_chunk = 99
+

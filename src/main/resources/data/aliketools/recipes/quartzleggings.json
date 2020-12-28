@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "qqq",
+    "q q",
+    "q q"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "aliketools:quartzleggings"
+  },
+  "group": "quartzarmor"
+}

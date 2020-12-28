@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aliketools:raw_horse"
+  },
+  "result": "aliketools:cooked_horse",
+  "experience": 0.35,
+  "cookingtime": 200
+}

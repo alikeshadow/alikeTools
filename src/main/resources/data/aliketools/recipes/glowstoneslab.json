@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg"
+  ],
+  "key": {
+    "g": [
+      {
+        "item": "minecraft:glowstone"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:glowstoneslab",
+    "count": 6
+  }
+}

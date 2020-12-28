@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "aliketools:block/obsidian_door_bottom",
+        "top": "aliketools:block/obsidian_door_top"
+    }
+}

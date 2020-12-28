@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "aliketools:glassslab"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:glass",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "aliketools:block/glowstoneslab" },
+    "type=top": { "model": "aliketools:block/glowstoneslab_top" },
+    "type=double": { "model": "block/glowstone" }
+  }
+}

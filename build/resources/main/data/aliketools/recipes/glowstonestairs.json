@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g  ",
+    "gg ",
+    "ggg"
+  ],
+  "key": {
+    "g": [
+      {
+        "item": "minecraft:glowstone"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:glowstonestairs",
+    "count": 4
+  }
+}

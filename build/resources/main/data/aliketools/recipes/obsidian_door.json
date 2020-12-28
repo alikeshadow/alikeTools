@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "oo",
+    "oo",
+    "oo"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "aliketools:obsidian_door",
+    "count": 3
+  }
+}

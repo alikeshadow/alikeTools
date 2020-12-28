@@ -1,0 +1,47 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "particle": "block/glass",
+        "glass": "block/glass",
+        "glass_quarter_only": "aliketools:block/glass_quarter_only",
+        "glass_3types": "aliketools:block/glass_3types",
+        "glass_half_i1": "aliketools:block/glass_half_i1",
+        "glass_half_i2": "aliketools:block/glass_half_i2"
+    },
+
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "north": { "texture": "#glass_half_i1", "uv": [ 0, 8, 16, 16 ], "cullface": "north" },
+                "east": { "texture": "#glass", "uv": [ 0, 8, 16, 16 ], "cullface": "east" },
+                "south": { "texture": "#glass", "uv": [ 0, 8, 16, 16 ], "cullface": "south" },
+                "west": { "texture": "#glass_half_i2", "uv": [ 0, 8, 16, 16 ], "cullface": "west" },
+                "up": { "texture": "#glass_quarter_only", "uv": [ 0, 0, 16, 16 ], "rotation": 270 },
+                "down": { "texture": "#glass", "uv": [ 0, 0, 16, 16 ], "cullface": "down" }
+            }
+        },
+        {
+            "from": [ 8, 8, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "texture": "#glass_3types", "uv": [ 8, 8, 16, 16 ], "cullface": "north" },
+                "east": { "texture": "#glass", "uv": [ 0, 0, 16, 8 ], "cullface": "east" },
+                "south": { "texture": "#glass", "uv": [ 8, 0, 16, 8 ], "cullface": "south" },
+                "west": { "texture": "#glass_quarter_only", "uv": [ 0, 0, 16, 8 ], "rotation": 180 },
+                "up": { "texture": "#glass_half_i1", "uv": [ 0, 8, 16, 16 ], "rotation": 270, "cullface": "up" }
+            }
+        },
+        {
+            "from": [ 0, 8, 8 ],
+            "to": [ 8, 16, 16 ],
+            "faces": {
+                "north": { "texture": "#glass_3types", "uv": [ 8, 0, 16, 8 ] },
+                "south": { "texture": "#glass", "uv": [ 0, 0, 8, 8 ], "cullface": "south" },
+                "west": { "texture": "#glass_3types", "uv": [ 8, 8, 16, 16 ], "cullface": "west" },
+                "up": { "texture": "#glass_3types", "uv": [ 8, 8, 16, 16 ], "rotation": 270, "cullface": "up" }
+            }
+        }
+    ]
+}
