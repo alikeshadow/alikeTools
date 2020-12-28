@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " nn",
+    " sn",
+    " s "
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:nether_brick"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aliketools:netherbrickaxe"
+  }
+}

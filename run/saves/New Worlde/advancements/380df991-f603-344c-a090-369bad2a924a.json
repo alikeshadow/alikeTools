@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_at_least_9_emerald": "2020-02-23 20:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_at_least_9_emerald": "2020-02-23 20:41:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2020-02-23 21:25:55 +0000",
+      "minecraft:plains": "2020-02-23 20:41:09 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 1976
+}

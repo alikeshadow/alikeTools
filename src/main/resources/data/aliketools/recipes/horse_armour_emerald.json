@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #e",
+    "eeb",
+    "lll"
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:emerald_block"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "aliketools:emerald_horse_armour"
+  }
+}

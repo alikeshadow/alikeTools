@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=south": { "model": "aliketools:block/red_crystal" },
+    "facing=west": { "model": "aliketools:block/red_crystal", "y": 90 },
+    "facing=north": { "model": "aliketools:block/red_crystal", "y": 180 },
+    "facing=east": { "model": "aliketools:block/red_crystal", "y": 270 }
+  }
+}

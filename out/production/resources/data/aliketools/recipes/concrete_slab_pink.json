@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:pink_concrete"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:pink_concrete_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aliketools:obsidianpickaxe"
+  }
+}

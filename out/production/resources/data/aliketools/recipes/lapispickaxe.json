@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aliketools:lapispickaxe"
+  }
+}

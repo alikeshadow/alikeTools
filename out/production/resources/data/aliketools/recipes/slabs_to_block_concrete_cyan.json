@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "aliketools:cyan_concrete_slab"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:cyan_concrete",
+    "count": 2
+  }
+}

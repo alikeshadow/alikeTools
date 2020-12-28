@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss"
+  ],
+  "key": {
+    "s": [
+      {
+        "item": "minecraft:slime_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:slimeslab",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: AlikeTools-1.14.4
+Implementation-Version: 1.4
+Specification-Vendor: alikeshadow
+Specification-Title: aliketools
+Implementation-Timestamp: 2020-07-01T10:33:15+0100
+Specification-Version: 1
+Implementation-Vendor: alikeshadow
+

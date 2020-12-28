@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:black_concrete"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:black_concrete_slab",
+    "count": 6
+  }
+}

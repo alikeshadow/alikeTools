@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "aliketools:redstoneslab"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:redstone_block",
+    "count": 2
+  }
+}

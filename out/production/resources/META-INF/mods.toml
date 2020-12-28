@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="aliketools"
+version="1.4"
+displayName="AlikeTools"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/aliketools"
+logoFile="logo.png"
+
+credits="alikeshadow"
+
+description='''
+Extra Minecraft tools and stuff for 1.14.4
+'''
+
+[[dependencies.aliketools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.aliketools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="CLIENT"

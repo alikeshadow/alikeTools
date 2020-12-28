@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #z",
+    "zzb",
+    "lll"
+  ],
+  "key": {
+    "z": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "b": {
+      "item": "minecraft:lapis_block"
+    },
+    "l": {
+      "item": "minecraft:leather"
+    },
+    "#": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "aliketools:lapis_horse_armour"
+  }
+}

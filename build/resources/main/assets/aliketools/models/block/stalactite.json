@@ -1,0 +1,7 @@
+{
+  "parent": "aliketools:block/stalactite_template",
+  "textures": {
+    "particle": "block/stone",
+    "stalactite": "block/stone"
+  }
+}

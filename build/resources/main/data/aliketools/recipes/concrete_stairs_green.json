@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c  ",
+    "cc ",
+    "ccc"
+  ],
+  "key": {
+    "c": [
+      {
+        "item": "minecraft:green_concrete"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:green_concrete_stairs",
+    "count": 4
+  }
+}

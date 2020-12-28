@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "r  ",
+    "rr ",
+    "rrr"
+  ],
+  "key": {
+    "r": [
+      {
+        "item": "minecraft:redstone_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aliketools:redstonestairs",
+    "count": 4
+  }
+}

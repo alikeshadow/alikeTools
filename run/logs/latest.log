@@ -1,0 +1,34 @@
+[28Dec2020 11:38:26.366] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\alikeshadow\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[28Dec2020 11:38:26.377] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_181 by Oracle Corporation
+[28Dec2020 11:38:27.196] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[28Dec2020 11:38:28.536] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\alikeshadow\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[28Dec2020 11:38:31.426] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[28Dec2020 11:38:45.746] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[28Dec2020 11:38:45.793] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[28Dec2020 11:38:47.196] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[28Dec2020 11:38:47.197] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[28Dec2020 11:38:51.109] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[28Dec2020 11:38:51.236] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.AlikeTools/]: Setup for AlikeTools
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.242] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.OreGeneration/]: No MultiOre in the End or Nether
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the Nether
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the End
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the End
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the End
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the End
+[28Dec2020 11:38:51.247] [modloading-worker-4/INFO] [com.alikeshadow.aliketools.world.CaveGeneration/]: No Cave features (yet!) in the End
+[28Dec2020 11:38:51.484] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[28Dec2020 11:38:53.370] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[28Dec2020 11:38:58.431] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[28Dec2020 11:38:58.609] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[28Dec2020 11:38:58.610] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[28Dec2020 11:38:58.883] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[28Dec2020 11:38:59.716] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[28Dec2020 11:38:59.717] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[28Dec2020 11:38:59.718] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[28Dec2020 11:39:00.261] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[28Dec2020 11:42:16.749] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

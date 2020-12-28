@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aliketools:calamari"
+  },
+  "result": "aliketools:cooked_calamari",
+  "experience": 0.35,
+  "cookingtime": 200
+}
