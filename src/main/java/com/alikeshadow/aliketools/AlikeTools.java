@@ -43,9 +43,7 @@ public class AlikeTools {
         LOGGER.info("Setup for AlikeTools");
         setup.init();
         proxy.init();
-        OreGeneration.setupOreGeneration();
-        SpecificBiomeCaveGeneration.setupSpecificBiomeGen();
-        CaveGeneration.setupCaveGeneration();
+        ChangeWorldGen.changeWorldGen();
         MinecraftForge.EVENT_BUS.register(new MobDrops());
         MinecraftForge.EVENT_BUS.register(new ToolTip());
 

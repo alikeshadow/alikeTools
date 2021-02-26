@@ -69,7 +69,8 @@ public class ModArmour extends ArmorItem {
           9,
           SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
           1.5f,
-          Ingredient.fromItems(Items.EMERALD)
+          Ingredient.fromItems(Items.EMERALD),
+          0
   );
   public static final IArmorMaterial obsidian = new ArmourMaterial(
           "aliketools:obsidian",
@@ -78,7 +79,8 @@ public class ModArmour extends ArmorItem {
           9,
           SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
           3.0f,
-          Ingredient.fromItems(Items.OBSIDIAN)
+          Ingredient.fromItems(Items.OBSIDIAN),
+          0
   );
   public static final IArmorMaterial lapis = new ArmourMaterial(
           "aliketools:lapis",
@@ -87,7 +89,8 @@ public class ModArmour extends ArmorItem {
           30,
           SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
           0.0f,
-          Ingredient.fromItems(Items.LAPIS_LAZULI)
+          Ingredient.fromItems(Items.LAPIS_LAZULI),
+          0
   );
   public static final IArmorMaterial redstone = new ArmourMaterial(
           "aliketools:redstone",
@@ -96,7 +99,8 @@ public class ModArmour extends ArmorItem {
           20,
           SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
           0.0f,
-          Ingredient.fromItems(Items.REDSTONE)
+          Ingredient.fromItems(Items.REDSTONE),
+          0
   );
   public static final IArmorMaterial quartz = new ArmourMaterial(
           "aliketools:quartz",
@@ -105,7 +109,8 @@ public class ModArmour extends ArmorItem {
           10,
           SoundEvents.ITEM_ARMOR_EQUIP_GENERIC,
           0.5f,
-          Ingredient.fromItems(Items.QUARTZ)
+          Ingredient.fromItems(Items.QUARTZ),
+          0
   );
 
   public ModArmour(IArmorMaterial materialIn, EquipmentSlotType slot, Properties builder) {
@@ -124,10 +129,10 @@ public class ModArmour extends ArmorItem {
     }
     if(head.getItem().equals(ModArmour.OBSIDIANHELMET) && chest.getItem().equals(ModArmour.OBSIDIANCHESTPLATE) && legs.getItem().equals(ModArmour.OBSIDIANLEGGINGS) && boots.getItem().equals(ModArmour.OBSIDIANBOOTS)){
       player.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 3, 1,false,false));
-      player.getAttribute(Attributes.field_233820_c_).setBaseValue(1.0F);
+      player.getAttribute(Attributes.KNOCKBACK_RESISTANCE).setBaseValue(1.0F);
     }
     else {
-      player.getAttribute(Attributes.field_233820_c_).setBaseValue(0.0F);
+      player.getAttribute(Attributes.KNOCKBACK_RESISTANCE).setBaseValue(0.0F);
     }
 
     if(head.getItem().equals(ModArmour.EMERALDHELMET) && chest.getItem().equals(ModArmour.EMERALDCHESTPLATE) && legs.getItem().equals(ModArmour.EMERALDLEGGINGS) && boots.getItem().equals(ModArmour.EMERALDBOOTS)) {

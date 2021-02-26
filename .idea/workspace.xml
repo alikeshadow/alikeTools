@@ -2,730 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5fc697-c4a5-4f70-915f-5cca2a62adc3" name="Default Changelist" comment="Base 1.16.4 Forge mod">
-      <change afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/latest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/AlikeTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ArmourMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/EmeraldBoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/EmeraldChestplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/EmeraldHelmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/EmeraldLeggings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/LapisBoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/LapisChestplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/LapisHelmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/LapisLeggings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ModArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ObsidianBoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ObsidianChestplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ObsidianHelmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ObsidianLeggings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/QuartzBoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/QuartzChestplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/QuartzHelmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/QuartzLeggings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/RedstoneBoots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/RedstoneChestplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/RedstoneHelmet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/RedstoneLeggings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlassSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlassStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/MultiOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/RedstoneSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/RedstoneStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/SlimeSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/SlimeStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/SmoothStoneStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/Stalactite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/Stalagmite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BlackConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BlackConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BlueConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BlueConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BrownConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/BrownConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/CyanConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/CyanConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/GrayConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/GrayConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/GreenConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/GreenConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LightBlueConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LightBlueConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LightGrayConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LightGrayConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LimeConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/LimeConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/MagentaConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/MagentaConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/OrangeConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/OrangeConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/PinkConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/PinkConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/PurpleConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/PurpleConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/RedConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/RedConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/WhiteConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/WhiteConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/YellowConcreteSlab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/concrete/YellowConcreteStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/doors/Obsidian_Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/ChainmailHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/EmeraldHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/LapisHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/ObsidianHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/QuartzHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/entity/horse/RedstoneHorseArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ChainmailSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/EmeraldAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/EmeraldHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/EmeraldPickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/EmeraldShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/EmeraldSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Ender_Dragon_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Giant_Zombie_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Illusioner_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Iron_Golem_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/LapisAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/LapisHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/LapisPickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/LapisShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/LapisSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/NetherBrickAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/NetherBrickHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/NetherBrickPickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/NetherBrickShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/NetherBrickSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ObsidianAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ObsidianHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ObsidianPickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ObsidianShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ObsidianSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/QuartzAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/QuartzHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/QuartzPickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/QuartzShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/QuartzSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/RedstoneAxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/RedstoneHoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/RedstonePickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/RedstoneShovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/RedstoneSword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Snow_Golem_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/ToolMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/Wither_Spawn_Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/Calamari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/CalamariCooked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/DarkChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/HorseCooked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/HorseRaw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/MilkChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/ModFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/items/food/WhiteChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ClientProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/IProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/MobDrops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ModSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ServerProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ToolTip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/CaveGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/OreGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/SpecificBiomeCaveGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/black_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/black_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/brown_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/brown_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/cyan_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/cyan_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/glassslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/glassstairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/glowstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/glowstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/green_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/green_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/light_blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/light_blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/light_gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/light_gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/lime_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/lime_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/magenta_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/magenta_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/multiore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/obsidian_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/orange_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/orange_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/pink_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/pink_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/purple_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/purple_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/red_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/red_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/red_crystal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/redstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/redstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/slimeslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/slimestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/smoothstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/stalactite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/stalagmite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/white_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/white_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/yellow_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/blockstates/yellow_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/black_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/black_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/black_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/black_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/black_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/blue_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/blue_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/blue_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/brown_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/brown_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/brown_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/brown_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/brown_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/cyan_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/cyan_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/cyan_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/cyan_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/cyan_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/gray_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/gray_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/gray_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/green_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/green_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/green_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/green_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/green_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_blue_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_blue_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_blue_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_gray_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_gray_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/light_gray_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/lime_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/lime_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/lime_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/lime_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/lime_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/magenta_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/magenta_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/magenta_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/magenta_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/magenta_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/orange_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/orange_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/orange_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/orange_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/orange_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/pink_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/pink_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/pink_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/pink_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/pink_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/purple_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/purple_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/purple_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/purple_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/purple_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/red_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/red_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/red_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/red_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/red_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/white_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/white_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/white_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/white_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/white_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/yellow_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/yellow_concrete_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/yellow_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/yellow_concrete_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/concrete/yellow_concrete_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/doors/obsidian_door_bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/doors/obsidian_door_bottom_hinge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/doors/obsidian_door_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/doors/obsidian_door_top_hinge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glassslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glassslab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glassstairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glassstairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glassstairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glowstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glowstoneslab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glowstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glowstonestairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/glowstonestairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/multiore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/redstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/redstoneslab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/redstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/redstonestairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/redstonestairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/slimeslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/slimeslab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/slimestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/slimestairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/slimestairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/smoothstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/smoothstonestairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/smoothstonestairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/stalactite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/stalactite_template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/stalagmite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/block/stalagmite_template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/black_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/black_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/brown_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/brown_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/calamari.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/chainmail_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/chainmailsheet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/cooked_calamari.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/cooked_horse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/cyan_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/cyan_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/dark_chocolate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emerald_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/emeraldsword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/ender_dragon_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/giant_zombie_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/glassslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/glassstairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/glowstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/glowstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/green_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/green_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/illusioner_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/iron_golem_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapis_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapisaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapisboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapischestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapishelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapishoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapisleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapispickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapisshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lapissword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/light_blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/light_blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/light_gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/light_gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lime_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/lime_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/magenta_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/magenta_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/milk_chocolate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/multiore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/netherbrickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/netherbrickhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/netherbrickpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/netherbrickshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/netherbricksword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidian_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidian_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidianshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/obsidiansword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/orange_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/orange_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/pink_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/pink_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/purple_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/purple_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartz_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/quartzsword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/raw_horse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/red_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/red_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstone_horse_armour.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstoneaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstoneboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonechestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonehelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonehoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstoneleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonepickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstoneshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/redstonesword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/slimeslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/slimestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/smoothstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/snow_golem_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/stalactite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/stalagmite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/white_chocolate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/white_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/white_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/wither_spawn_egg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/yellow_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/models/item/yellow_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_3quarters_only.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_3types.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_half.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_half_i1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_half_i2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_half_rot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glass_quarter_only.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/glowstoneslab_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/multiore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/obsidian_door_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/obsidian_door_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/red_crystal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/redstoneslab_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/block/slimeslab_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/boat/testboat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_chainmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_emerald.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_lapis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_obsidian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_quartz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/entity/horse/armor/horse_armor_redstone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/calamari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/chainmail_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/chainmailsheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/cooked_calamari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/cooked_horse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/dark_chocolate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emerald_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldboots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldchestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldhelmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldhoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldleggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldpickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/emeraldsword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapis_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapisaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapisboots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapischestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapishelmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapishoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapisleggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapispickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapisshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/lapissword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/milk_chocolate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/netherbrickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/netherbrickhoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/netherbrickpickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/netherbrickshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/netherbricksword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidian_door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidian_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianboots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianchestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianhelmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianhoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianleggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianpickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidianshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/obsidiansword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartz_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzboots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzchestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzhelmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzhoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzleggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzpickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/quartzsword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/raw_horse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstone_horse_armour.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstoneaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstoneboots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstonechestplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstonehelmet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstonehoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstoneleggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstonepickaxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstoneshovel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/redstonesword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/item/white_chocolate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/emerald_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/emerald_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/lapis_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/lapis_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/obsidian_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/obsidian_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/quartz_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/quartz_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/redstone_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aliketools/textures/models/armor/redstone_layer_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/black_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/black_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/brown_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/brown_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/cyan_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/cyan_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/glassslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/glassstairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/glowstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/glowstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/green_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/green_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/light_blue_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/light_blue_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/light_gray_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/light_gray_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/lime_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/lime_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/magenta_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/magenta_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/multiore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/obsidian_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/orange_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/orange_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/pink_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/pink_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/purple_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/purple_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/red_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/red_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/redstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/redstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/slimeslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/slimestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/smoothstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/stalactite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/stalagmite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/white_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/white_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/yellow_concrete_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/blocks/yellow_concrete_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/desert_pyramid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/end_city_treasure.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/jungle_temple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/nether_bridge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/simple_dungeon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/loot_tables/chests/stronghold_corridor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chainmail_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chainmail_chestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chainmail_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chainmail_leggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chainmailsheet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chocolate_dark.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chocolate_milk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/chocolate_white.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/cobweb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_black.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_brown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_cyan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_green.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_light_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_light_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_lime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_magenta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_orange.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_pink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_purple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_red.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_white.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_slab_yellow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_black.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_brown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_cyan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_green.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_light_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_light_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_lime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_magenta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_orange.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_pink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_purple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_red.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_white.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/concrete_stairs_yellow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/cooked_calamari.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/cooked_horse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/emeraldsword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/glassslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/glassstairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/glowstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/glowstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_chainmail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_emerald.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_lapis.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_obsidian.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_quartz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/horse_armour_redstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapisaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapisboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapischestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapishelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapishoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapisleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapispickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapisshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/lapissword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/nametag.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/netherbrickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/netherbrickhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/netherbrickpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/netherbrickshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/netherbricksword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidian_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidianshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/obsidiansword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/packed_ice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzchestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzhelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzhoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzpickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/quartzsword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstoneaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstoneboots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonechestplate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonehelmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonehoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstoneleggings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonepickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstoneshovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstoneslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/redstonesword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/saddle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_acacia.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_andesite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_birch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_black.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_brown.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_cyan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_green.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_light_blue.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_light_gray.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_lime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_magenta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_orange.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_pink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_purple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_red.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_white.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_concrete_yellow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_cut-red-sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_cut-sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_dark-oak.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_dark-prismarine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_diorite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_end-stone-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_glass.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_glowstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_granite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_jungle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_mossy-cobblestone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_mossy-stone-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_nether-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_oak.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_polished-andesite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_polished-diorite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_polished-granite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_prismarine-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_prismarine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_purpur.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_quartz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_red-nether-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_red-sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_redstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_slime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_smooth-quartz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_smooth-red-sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_smooth-sandstone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_smooth-stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_spruce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_stone-brick.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slabs_to_block_stone.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slimeslab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/slimestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/recipes/smoothstonestairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aliketools/tags/items/multiore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/ChangeWorldGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/SpecificBiomeGen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
@@ -733,12 +11,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examplemod/ExampleMod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloadMCMeta/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloadMCMeta/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/AlikeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/AlikeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ArmourMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ArmourMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ModArmour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/armour/ModArmour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneSlab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneSlab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/blocks/GlowstoneStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ToolTip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/setup/ToolTip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/CaveGeneration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/OreGeneration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alikeshadow/aliketools/world/SpecificBiomeCaveGeneration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -762,6 +47,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -777,7 +69,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AlikeTools-1.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
@@ -809,10 +101,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609093739581" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1609095272292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609095272292" />
     <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609093278201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="197" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1609093278201" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614352210994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614352210994" />
     <state x="296" y="8" key="CommitChangelistDialog2" timestamp="1609089650954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -821,22 +121,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609093408831" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609093877090">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1614359105280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609093877090" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609093877090">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614359105280" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1614359105280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609093877090" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609093877090">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614359105280" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1614359105279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609093877090" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609093877090">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614359105279" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1614359105280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609093877090" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614359105280" />
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614358003121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1614358003121" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609089254001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

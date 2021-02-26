@@ -15,8 +15,9 @@ public class ArmourMaterial implements IArmorMaterial {
     private SoundEvent soundEvent;
     private float toughness;
     private Ingredient repair;
+    private float knockbackResistance;
 
-    ArmourMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Ingredient repair) {
+    ArmourMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent, float toughness, Ingredient repair, float knockbackResistance) {
         this.name = name;
         this.maxDamageFactor = maxDamageFactor;
         this.damageReductionAmountArray = damageReductionAmountArray;
@@ -24,6 +25,7 @@ public class ArmourMaterial implements IArmorMaterial {
         this.soundEvent = soundEvent;
         this.toughness = toughness;
         this.repair = repair;
+        this.knockbackResistance = knockbackResistance;
     }
 
     @Override
@@ -41,7 +43,7 @@ public class ArmourMaterial implements IArmorMaterial {
     public float getToughness() { return toughness; }
 
     @Override
-    public float func_230304_f_() {
-        return 0;
+    public float getKnockbackResistance() {
+        return knockbackResistance;
     }
 }

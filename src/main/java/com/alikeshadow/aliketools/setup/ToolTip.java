@@ -7,6 +7,7 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.EnchantedBookItem;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.nbt.ListNBT;
+import net.minecraft.util.IReorderingProcessor;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.*;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
@@ -26,7 +27,7 @@ public class ToolTip {
         }
 
         if (list.size() > 0) {
-            if (Screen.func_231173_s_()) {
+            if (Screen.hasShiftDown()) {
                 list.stream().map(nbt -> (CompoundNBT) nbt).forEach(tag -> {
                     ResourceLocation location = new ResourceLocation(tag.getString("id"));
                     int level = tag.getInt("lvl");
@@ -38,19 +39,29 @@ public class ToolTip {
                             Optional<ITextComponent> optional = event.getToolTip().stream().filter((component) -> component.getString().equals(displayName.getString())).findFirst();
                             if (optional.isPresent()) {
                                 int index = event.getToolTip().indexOf(optional.get());
-                                List<ITextProperties> lines = Minecraft.getInstance().fontRenderer.func_238425_b_(ITextProperties.func_240652_a_("- " + I18n.format(key)), 150);
-                                for (int i = lines.size() - 1; i >= 0; --i) {
-                                    event.getToolTip().add(index + 1, (new StringTextComponent(lines.get(i).getString())).func_230530_a_(Style.field_240709_b_.func_240712_a_(TextFormatting.BLUE)));
-                                }
+
+
+
+                                event.getToolTip().add(index + 1, (new StringTextComponent(
+                                        ITextProperties.func_240652_a_("- " + I18n.format(key)).getString())
+                                        .setStyle(Style.EMPTY.setColor(Color.fromTextFormatting(TextFormatting.BLUE))))
+                                );
+                               // List<IReorderingProcessor> lines = Minecraft.getInstance().fontRenderer.trimStringToWidth(ITextProperties.func_240652_a_("- " + I18n.format(key)), 150);
+                               // for (int i = lines.size() - 1; i >= 0; --i) {
+                               //     event.getToolTip().add(index + 1, (new StringTextComponent(
+                                //            lines.get(i).toString()))
+                                //            .setStyle(Style.EMPTY.setColor(Color.fromTextFormatting(TextFormatting.BLUE)))
+                                 //   );
+                             //   }
+
                             }
                         }
                     }
                 });
             } else {
-                Style style = Style.field_240709_b_.func_240712_a_(TextFormatting.GOLD);
-                event.getToolTip().add((new StringTextComponent(I18n.format("aliketools.enchanthelp"))).func_230530_a_(Style.field_240709_b_.func_240717_a_(style)));
+                Style style = Style.EMPTY.setFormatting(TextFormatting.GOLD);
+                event.getToolTip().add((new StringTextComponent(I18n.format("aliketools.enchanthelp"))).setStyle(Style.EMPTY.mergeStyle(style)));
             }
         }
     }
-
 }

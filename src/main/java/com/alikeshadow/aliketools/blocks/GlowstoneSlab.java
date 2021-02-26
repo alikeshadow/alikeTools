@@ -9,7 +9,7 @@ public class GlowstoneSlab extends SlabBlock {
         super(Properties.create(Material.GLASS)
                 .sound(SoundType.GLASS)
                 .hardnessAndResistance(0.3F)
-                .func_235838_a_((p_235462_0_) -> 15)
+                .setLightLevel((p_235462_0_) -> 15)
         );
         setRegistryName("glowstoneslab");
     }
